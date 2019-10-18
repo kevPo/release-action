@@ -1,0 +1,13 @@
+name: 'Release Action'
+description: 'Testing out this actions stuff'
+inputs:
+  release-number:
+    description: 'What was the release number'
+    required: true
+    default: '0.0'
+outputs:
+  message:
+    description: 'result message'
+runs:
+  using: 'node12'
+  main: 'index.js'
